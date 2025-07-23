@@ -71,6 +71,8 @@ public class View_Employee extends JFrame implements ActionListener {
         setSize(900,700);
         setLayout(null);
         setLocation(300,100);
+        setLocationRelativeTo(null);
+        setResizable(false);
         setVisible(true);
     }
 

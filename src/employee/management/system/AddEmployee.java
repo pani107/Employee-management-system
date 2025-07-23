@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class AddEmployee extends JFrame implements ActionListener {
     Random ran = new Random();
-    int number = ran.nextInt(999999);
+    int number = ran.nextInt(99999);
     JTextField tname, tfname, taddress,tphone, taadhar, temail, tsalary,tdesignation;
     JLabel tempid;
     JDateChooser tdob;
@@ -159,6 +159,8 @@ public class AddEmployee extends JFrame implements ActionListener {
         setSize(900,700);
         setLayout(null);
         setLocation(300,50);
+        setLocationRelativeTo(null);
+        setResizable(false);
         setVisible(true);
     }
 
