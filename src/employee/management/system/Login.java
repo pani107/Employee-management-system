@@ -13,7 +13,7 @@ public class Login extends JFrame implements ActionListener {
     JButton login, back;
 
     Login(){
-
+         //create username label.
         JLabel username = new JLabel("Username");
         username.setBounds(40,20,100,30);
         add(username);
