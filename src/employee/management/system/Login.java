@@ -1,11 +1,11 @@
 package employee.management.system;
 
-import javax.swing.*;
+import javax.swing.*;//important java swing package.
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.ResultSet;
-
+// create login class and extended to Jframe and implements to Action listener interface.
 public class Login extends JFrame implements ActionListener {
 
     JTextField tusername;
