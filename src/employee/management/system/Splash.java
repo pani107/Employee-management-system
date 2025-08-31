@@ -6,7 +6,7 @@ import java.awt.*;
 public class Splash extends JFrame {
 
     Splash(){
-
+        // get image.
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/front.gif"));
         Image i2 = i1.getImage().getScaledInstance(2100,1150, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
@@ -14,7 +14,7 @@ public class Splash extends JFrame {
         image.setBounds(0,0,2000,1100);
         add(image);
 
-
+        
         setSize(3000,2000);
         setLocation(200,50);
         setLayout(null);
@@ -24,7 +24,7 @@ public class Splash extends JFrame {
         setVisible(true);
 
         try{
-            Thread.sleep(5000);
+            Thread.sleep(5000); // set thread time 
             setVisible(false);
             new Login();
         }catch (Exception e){
