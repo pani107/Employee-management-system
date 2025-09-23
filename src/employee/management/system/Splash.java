@@ -24,7 +24,7 @@ public class Splash extends JFrame {
         setVisible(true);
 
         try{
-            Thread.sleep(5000); // set thread time 
+            Thread.sleep(5000); // set thread time.
             setVisible(false);
             new Login();
         }catch (Exception e){
